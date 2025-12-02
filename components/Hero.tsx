@@ -15,12 +15,12 @@ const Hero: React.FC<HeroProps> = ({ onStartDemo }) => {
         <div className="flex flex-wrap items-center gap-4 mb-8">
             <div className="bg-gotcat-card px-4 py-2 rounded-full flex items-center gap-2 border border-white/5 shadow-lg">
                 <Users size={16} className="text-gotcat-green" />
-                <span className="text-white font-bold text-sm">514,204</span>
-                <span className="text-gray-400 text-xs font-semibold">Mathletes</span>
+                <span className="text-white font-bold text-sm">2,234</span>
+                <span className="text-gray-400 text-xs font-semibold">Players</span>
             </div>
             <div className="bg-gotcat-card px-4 py-2 rounded-full flex items-center gap-2 border border-white/5 shadow-lg">
                 <Activity size={16} className="text-gotcat-orange" />
-                <span className="text-white font-bold text-sm">9,616,444</span>
+                <span className="text-white font-bold text-sm">10k+</span>
                 <span className="text-gray-400 text-xs font-semibold">Battles</span>
             </div>
         </div>
